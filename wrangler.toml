@@ -11,6 +11,3 @@ crons = ["0 0/4 * * *"]
 bucket = "out"
 entry-point = "./"
 
-[env.production]
-kv-namespaces = [{binding="KV_STATUS_PAGE", id="d0b67b5ef08d46d992f926c3fa089632"}]
-zone_id="94655e90b5a66c426133e8262083478d"
